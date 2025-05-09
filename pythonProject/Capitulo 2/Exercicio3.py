@@ -1,0 +1,2 @@
+#primeiro horario 6:52 e corre 1 quilometro (8min15s por quilometro), dps de 3 quilometros (7min12s) e 1 quilometro  usa o passo em primeiro lugr que hora chegar por cafe da manha
+#quilometro 1 era 7:00 e 15 segundos, no quilometro 4 7:21,51
