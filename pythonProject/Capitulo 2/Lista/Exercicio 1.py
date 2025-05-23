@@ -1,0 +1,6 @@
+Num1 = int(input())
+Num2 = int(input())
+print("Soma:", Num1 + Num2)
+print("Produto:", Num1 * Num2)
+print("Diferença:", Num1 - Num2)
+print("quociente:", Num1 // Num2)
