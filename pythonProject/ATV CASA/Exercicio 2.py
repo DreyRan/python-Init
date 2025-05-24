@@ -1,3 +1,7 @@
+# Escreva um programa para ler o número total de eleitores de um município, o
+# numero de votos brancos, nulos e válidos. Apresente a percentagem que cada
+# um representa em relação ao total de eleitores.
+
 Totaleleitores = int(input("Quantos eleitores tem na cidade?"))
 TotalvotosBrancos = int(input("Qual foi a quantidade de votos em Branco?"))
 TotalvotoNulos = int(input("Qual foi a quantidade de votos nulos?"))

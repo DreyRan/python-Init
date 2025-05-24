@@ -1,4 +1,5 @@
-#Escreva um programa para ler as dimensões de um retângulo (base e altura),calcule e apresente a área
+# Escreva um programa para ler as dimensões de um retângulo (base e altura),
+# calcule e apresente a área
 Base = int(input("Quanto é a base do triangulo?"))
 Altura = int(input("Qual é Altura do triangulo?"))
 
