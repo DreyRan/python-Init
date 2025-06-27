@@ -1,4 +1,4 @@
-# A função int converte um numero em inteiro
+   # A função int converte um numero em inteiro
 strring = '32'
 print(type(strring))
 print(type(int('32')))
