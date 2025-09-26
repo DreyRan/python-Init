@@ -1,22 +1,24 @@
-def mostraidade(id1,id2,id3,id4,id5):
+def verificaIdade21(idade1, idade2, idade3, idade4, idade5):
     totalidade = 0
-    if(id1 == 21):
-        totalidade = (totalidade + 1)
-    if(id2 == 21):
-        totalidade = (totalidade + 1)
-    if (id3 == 21):
-        totalidade = (totalidade + 1)
-    if (id4 == 21):
-        totalidade = (totalidade + 1)
-    if (id5 == 21):
-        totalidade = (totalidade + 1)
+    if (idade1 == 21):
+        totalidade += 1
+    if (idade2 == 21):
+        totalidade += 1
+    if (idade3 == 21):
+        totalidade += 1
+    if (idade4 == 21):
+        totalidade += 1
+    if (idade5 == 21):
+        totalidade += 1
 
-    print("O total de idades igual a 21 é ",totalidade)
+    print(f"O total de idades igual a 21 é {totalidade}")
+def main():
+    idade1 = int(input("Qual a 1° idade"))
+    idade2 = int(input("Qual a 2° idade"))
+    idade3 = int(input("Qual a 3° idade"))
+    idade4 = int(input("Qual a 4° idade"))
+    idade5 = int(input("Qual a 5° idade"))
 
-id1 = int(input("Qual a 1° idade"))
-id2 = int(input("Qual a 2° idade"))
-id3 = int(input("Qual a 3° idade"))
-id4 = int(input("Qual a 4° idade"))
-id5 = int(input("Qual a 5° idade"))
-
-mostraidade(id1,id2,id3,id4,id5)
+    verificaIdade21(idade1, idade2, idade3, idade4, idade5)
+if __name__ == "__main__":
+ main()

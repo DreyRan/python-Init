@@ -1,23 +1,43 @@
-def calculamedia(num1,num2,num3,num4):
-    qtdpar = 0
-    totalpares = 0
-    if(num1 % 2 == 0):
-        qtdpar += 1
-        totalpares += num1
-    if(num2 % 2 == 0):
-        qtdpar += 1
-        totalpares += num2
-    if(num3 % 2 == 0):
-        qtdpar += 1
-        totalpares += num3
-    if(num4 % 2 == 0):
-        qtdpar += 1
-        totalpares += num4
-    return totalpares / qtdpar
-    print("A media de tudo é ", media1)
-num1 = int(input("Digite o 1° numero"))
-num2 = int(input("Digite o 2° numero"))
-num3 = int(input("Digite o 3° numero"))
-num4 = int(input("Digite o 4° numero"))
-totalmedia = calculamedia(num1,num2,num3,num4)
-print("A media dos numeros pares é:", totalmedia)
+def soma(numero1, numero2, numero3, numero4):
+    total = 0
+
+    if (numero1 % 2 == 0):
+        total += numero1
+    if (numero2 % 2 == 0):
+        total += numero2
+    if (numero3 % 2 == 0):
+        total += numero3
+    if (numero4 % 2 == 0):
+        total += numero4
+
+    return total
+
+
+def contaPares(numero1, numero2, numero3, numero4):
+    total = 0
+
+    if (numero1 % 2 == 0):
+     total += 1
+    if (numero2 % 2 == 0):
+     total += 1
+    if (numero3 % 2 == 0):
+     total += 1
+    if (numero4 % 2 == 0):
+     total += 1
+
+
+    return total
+
+def main():
+    numero1 = int(input("Qual o 1° numero?"))
+    numero2 = int(input("Qual o 2° numero?"))
+    numero3 = int(input("Qual o 3° numero?"))
+    numero4 = int(input("Qual o 4° numero?"))
+    totalsoma = soma(numero1, numero2, numero3, numero4)
+    totalpares = contaPares(numero1, numero2, numero3, numero4)
+    media = totalsoma / totalpares
+    print(f"A soma dos numeros é: {totalsoma}")
+    print(f"A média dos pares é: {media:.2f}")
+
+if __name__ == "__main__":
+    main()
